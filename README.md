@@ -1,6 +1,8 @@
 # Terrain to .STL format
 
-1. Download the .asc file with the digital terrain model (e.g. <https://mapy.geoportal.gov.pl/imap/Imgp_2.html?gpmap=gp0>, on the left: data download -> WCS -> Digital terrain model - Arc/info ASCII grid -> Draw area -> Download file).
+This script allows to convert .asc file containing Digital Terrain Model of terrain to the 3D model ready to export as .stl file, e.g. for printing.
+
+1. Download the .asc file with the digital terrain model (using <https://github.com/marcinbator/geoportal-asc-terrain-downloader>, or manually from <https://mapy.geoportal.gov.pl/imap/Imgp_2.html?gpmap=gp0> (on the left: data download -> WCS -> Digital terrain model - Arc/info ASCII grid -> Draw area -> Download file)).
 2. In the .asc file, replace the `dx` and `dy` lines with the following lines (if needed):
 
    ```asc
