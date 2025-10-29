@@ -10,7 +10,7 @@ This script allows to convert .asc file containing Digital Terrain Model of terr
    NODATA_value  0
    ```
 
-3. Blender: Install the BlenderGIS library (<https://github.com/domlysz/BlenderGIShttps://github.com/domlysz/BlenderGIS>).
+3. Blender: Install the BlenderGIS library (<https://github.com/domlysz/BlenderGIS>).
 4. GIS -> Import -> ESRI ASCII Grid (asc).
 5. Scripting -> paste or load the `./script.py` file, press RUN and wait (this can take very long).
 6. Export -> .stl.
